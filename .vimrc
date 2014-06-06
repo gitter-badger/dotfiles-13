@@ -9,6 +9,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
+Plugin 'skalnik/vim-vroom'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
@@ -19,6 +20,7 @@ syntax enable
 set laststatus=2
 set number
 set noswapfile
+let mapleader = ','
 
 "--------------------------------- Tabs
 set tabstop=2
