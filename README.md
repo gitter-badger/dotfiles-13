@@ -3,7 +3,7 @@
 ### 1. Install oh-my-zsh
 Install oh-my-zsh by entering in this command:
  
-   $ curl -L http://install.ohmyz.sh | sh
+    $ curl -L http://install.ohmyz.sh | sh
 
 ### 2. Set rbenv in ~/.zshrc
 
