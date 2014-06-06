@@ -10,6 +10,7 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'skalnik/vim-vroom'
+Plugin 'tpope/vim-fugitive'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
