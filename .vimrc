@@ -12,6 +12,7 @@ Plugin 'bling/vim-airline'
 Plugin 'skalnik/vim-vroom'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rbenv'
+Plugin 'scrooloose/syntastic'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
