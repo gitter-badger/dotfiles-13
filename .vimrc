@@ -11,6 +11,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'skalnik/vim-vroom'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rbenv'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233

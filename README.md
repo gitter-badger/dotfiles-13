@@ -20,3 +20,9 @@ Setup Vundle by Cloning plugin to Vim:
 Install Vundle Plugin with VundleInstall
 
     :VundleInstall
+
+### 4. Vim Hates Rbenv
+
+After installing vim-rbenv plugin run this command to STOP using system ruby:
+
+    sudo mv /etc/zshenv /etc/zshrc
