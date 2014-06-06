@@ -3,15 +3,48 @@
 	email = john@johnfigueiredo.com
 [alias]
 	co = checkout
+	cob = checkout -b
+	aa = add -A
 	ci = commit
 	st = status
 	br = branch
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	go = checkout
 	type = cat-file
 	dump = cat-file
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	di = diff
+	sta = stash
+	llog = log --date=local
+	flog = log --pretty=fuller --decorate
+	lol = log --graph --decorate --oneline
+	lola = log --graph --decorate --oneline --all
+	blog = log origin/master... --left-right
+	ds = diff --staged
+	fixup = commit --fixup
+	squash = commit --squash
+	unstage = reset HEAD
+	rum = rebase master@{u}
+	delete = !git checkout develop || !git checkout master && git branch | grep -v “develop” | xargs git branch -D || git branch | grep -v “master” | xargs git branch -D
+	view = config --get-regexp alias
 [core]
 	editor = vim
+	excludesfile = /Users/johnfigueiredo/.gitignore_global
+	pager = less -FXRS -x2
 
 [credential]
 	helper = osxkeychain
+[push]
+	default = simple
+[apply]
+	whitespace = nowarn
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+[branch]
+	autosetupmerge = true
+[rebase]
+	autosquash = true
