@@ -5,6 +5,7 @@
 	co = checkout
 	cob = checkout -b
 	aa = add -A
+  cm = commit -m
 	ci = commit
 	st = status
 	br = branch
