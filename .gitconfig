@@ -6,12 +6,12 @@
 	ci = commit
 	st = status
 	br = branch
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	go = checkout
 	type = cat-file
 	dump = cat-file
 [core]
-	editor = subl -w
+	editor = vim
 
 [credential]
 	helper = osxkeychain
