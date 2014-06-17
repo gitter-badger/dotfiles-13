@@ -11,6 +11,7 @@ alias bl="bundle list"
 alias bp="bundle package"
 alias bu="bundle update"
 alias gp="git push"
+alias migrate="bundle exec rake db:migrate; bundle exec rake db:test:prepare"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
