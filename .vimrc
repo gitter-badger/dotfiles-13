@@ -30,3 +30,8 @@ let mapleader = ','
 set tabstop=2
 set softtabstop=2
 set expandtab
+
+"--------------------------------- Save Override
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
+:imap <c-s> <Esc><c-s>
