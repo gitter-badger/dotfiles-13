@@ -14,6 +14,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rbenv'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-dispatch'
+Plugin 'slim-template/vim-slim'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
