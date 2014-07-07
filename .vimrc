@@ -37,3 +37,16 @@ set shiftwidth=2
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 :imap <c-s> <Esc><c-s>
+:nmap <c-a> :sus<CR>
+:imap <c-a> <Esc>:sus<CR>
+:noremap <c-a> :w<CR><Esc>:sus<CR>
+
+"--------------------------------- Searching
+set grepprg=ack\ -H\ --nocolor\ --nogroup\ --column
+
+function! Ack(term)
+  silent execute 'grep ' . a:term
+  redraw!
+  copen
+endfunction
+command! -nargs=1 Ack call Ack(<f-args>)
