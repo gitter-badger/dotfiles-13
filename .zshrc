@@ -10,8 +10,9 @@ alias bi="bundle install"
 alias bl="bundle list"
 alias bp="bundle package"
 alias bu="bundle update"
-alias gp="git push"
+alias gp="git pull"
 alias hp="git push heroku master"
+alias tmux="TERM=screen-256color-bce tmux"
 
 alias migrate="bundle exec rake db:migrate; bundle exec rake db:test:prepare"
 
