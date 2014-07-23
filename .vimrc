@@ -15,6 +15,9 @@ Plugin 'tpope/vim-rbenv'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-dispatch'
 Plugin 'slim-template/vim-slim'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/nerdtree'
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
@@ -41,7 +44,12 @@ set shiftwidth=2
 :imap <c-a> <Esc>:sus<CR>
 :noremap <c-a> :w<CR><Esc>:sus<CR>
 
+"--------------------------------- Nerd Tree Settings
+nmap <leader>d :NERDTreeToggle<cr>
+nmap <leader>f :NERDTreeFind<cr>
+
 "--------------------------------- Searching
+nmap <leader>s :Ack<space>
 set grepprg=ack\ -H\ --nocolor\ --nogroup\ --column
 
 function! Ack(term)
