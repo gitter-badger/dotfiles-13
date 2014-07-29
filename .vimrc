@@ -30,6 +30,19 @@ set number
 set noswapfile
 let mapleader = ','
 
+"--------------------------------- Search Settings
+set ignorecase "case-insensitive searching
+set smartcase "do a case-sensitive search if uppercase letters are present
+set hlsearch "highlight search results
+set incsearch "highlight search while typing
+
+"--------------------------------- Cursor settings
+hi CursorColumn term=bold cterm=bold guibg=#BBB
+set cursorline
+set cursorcolumn
+hi CursorLine ctermbg=234 guibg=#1c1c1c
+hi CursorColumn ctermbg=234 guibg=#1c1c1c
+
 "--------------------------------- Tabs
 set tabstop=2
 set softtabstop=2
