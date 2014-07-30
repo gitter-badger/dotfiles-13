@@ -18,6 +18,10 @@ Plugin 'slim-template/vim-slim'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'godlygeek/tabular'
+
+filetype plugin indent on "detect filetype automatically
 
 "--------------------------------- Background Color Settings
 let g:seoul256_background = 233
@@ -29,6 +33,12 @@ set laststatus=2
 set number
 set noswapfile
 let mapleader = ','
+
+"--------------------------------- Workspace
+set colorcolumn=80 "column guid on the right
+set list listchars=tab:\ \ ,trail:· "show trailing whitespace
+set smartindent "indent wisely
+set autoindent  "auto-indent
 
 "--------------------------------- Search Settings
 set ignorecase "case-insensitive searching
