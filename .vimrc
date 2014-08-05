@@ -20,6 +20,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
+Plugin 'kchmck/vim-coffee-script'
 
 filetype plugin indent on "detect filetype automatically
 
