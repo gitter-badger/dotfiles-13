@@ -21,6 +21,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-rails'
 
 filetype plugin indent on "detect filetype automatically
 
