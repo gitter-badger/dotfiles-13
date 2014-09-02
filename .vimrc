@@ -22,6 +22,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-rails'
+Plugin 'terryma/vim-multiple-cursors'
 
 filetype plugin indent on "detect filetype automatically
 
