@@ -21,6 +21,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-rails'
+Plugin 'terryma/vim-multiple-cursors'
 
 filetype plugin indent on "detect filetype automatically
 
@@ -28,6 +30,12 @@ filetype plugin indent on "detect filetype automatically
 let g:seoul256_background = 233
 colo seoul256
 syntax enable
+
+"--------------------------------- Fast Scrolling
+nnoremap <c-j> }
+nnoremap <c-k> {
+nnoremap <c-h> <s-6>
+nnoremap <c-l> <s-4>
 
 "--------------------------------- Settings				
 set laststatus=2
