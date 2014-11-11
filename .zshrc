@@ -13,6 +13,7 @@ alias bu="bundle update"
 alias gp="git pull"
 alias hp="git push heroku master"
 alias tmux="TERM=screen-256color-bce tmux"
+alias ngrok="~/ngrok"
 
 alias migrate="bundle exec rake db:migrate; bundle exec rake db:test:prepare"
 
