@@ -25,4 +25,15 @@ Install Vundle Plugin with VundleInstall
 
 After installing vim-rbenv plugin run this command to STOP using system ruby:
 
-    sudo mv /etc/zshenv /etc/zshrc
+    $ sudo mv /etc/zshenv /etc/zshrc
+
+### 5. Homebrew
+
+Install Homebrew:
+
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    $ brew install rbenv ruby-build
+    $ brew install autojump
+    $ brew install postgres
+    $ brew install heroku-toolbelt
+    $ brew install redis
