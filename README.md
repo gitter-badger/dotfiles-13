@@ -20,7 +20,7 @@ Install Homebrew:
     $ brew install redis
     $ brew install mongodb
 
-### 2. Gems
+### 3. Gems
 
 Install Homebrew:
 
@@ -30,13 +30,13 @@ Install Homebrew:
     $ rbenv install -l (lists ruby versions)
     $ rbenv install '2.1.2' (or latest most stable version)
 
-### 3. Set rbenv in ~/.zshrc
+### 4. Set rbenv in ~/.zshrc
 
 In your .zshrc file set rbenv to initialize:
 
     $ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
-### 4. Uploading Vundle with Vim
+### 5. Uploading Vundle with Vim
 
 Setup Vundle by Cloning plugin to Vim:
 
@@ -46,7 +46,7 @@ Install Vundle Plugin with VundleInstall
 
     :VundleInstall
 
-### 5. Vim Hates Rbenv
+### 6. Vim Hates Rbenv
 
 After installing vim-rbenv plugin run this command to STOP using system ruby:
 
