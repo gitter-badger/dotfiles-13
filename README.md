@@ -10,11 +10,25 @@ Install oh-my-zsh by entering in this command:
 Install Homebrew:
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    $ brew update
+    $ brew doctor
     $ brew install rbenv ruby-build
+    $ brew install git
     $ brew install autojump
     $ brew install postgres
     $ brew install heroku-toolbelt
     $ brew install redis
+    $ brew install mongodb
+
+### 2. Gems
+
+Install Homebrew:
+
+    $ gem install bundler
+    $ gem install rails
+    $ rbenv rehash
+    $ rbenv install -l (lists ruby versions)
+    $ rbenv install '2.1.2' (or latest most stable version)
 
 ### 3. Set rbenv in ~/.zshrc
 
