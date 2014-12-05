@@ -1,4 +1,5 @@
 ## Set Up Dotfiles
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/johnfig/dotfiles?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### 1. Install oh-my-zsh
 Install oh-my-zsh by entering in this command:
